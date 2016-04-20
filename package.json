@@ -1,0 +1,31 @@
+{
+  "name": "guitar-journal-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node lib/index.js",
+    "migrate": "rethink-migrate up -l debug",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osirisguitar/Guitar-Journal-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osirisguitar/Guitar-Journal-API/issues"
+  },
+  "homepage": "https://github.com/osirisguitar/Guitar-Journal-API#readme",
+  "dependencies": {
+    "extend": "^3.0.0",
+    "nconf": "^0.8.4",
+    "restify": "^4.0.4",
+    "rethink-migrate": "https://github.com/osirisguitar/rethink-migrate/archive/v1.2.2-fix.tar.gz",
+    "rethinkdbdash": "^2.3.2"
+  },
+  "devDependencies": {
+    "semistandard": "^7.0.5"
+  }
+}
