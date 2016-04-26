@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/osirisguitar/Guitar-Journal-API#readme",
   "dependencies": {
+    "bcryptjs": "^2.3.0",
     "extend": "^3.0.0",
     "nconf": "^0.8.4",
     "restify": "^4.0.4",
