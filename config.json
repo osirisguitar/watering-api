@@ -1,7 +1,7 @@
 {
   "rethinkdb": {
-    "host": "localhost",
-    "port": 28016,
+    "host": "rethinkdb",
+    "port": 28015,
     "db": "guitarjournal"
   }
 }

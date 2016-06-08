@@ -6,8 +6,8 @@ const extend = require('extend');
 let r = {};
 
 let dbOptions = {
-  host: 'localhost',
-  port: 28016,
+  host: '192.168.88.9',
+  port: 28015,
   db: 'guitarjournal',
   discovery: false
 };
