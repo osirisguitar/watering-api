@@ -14,6 +14,9 @@
 				"tmp"
 			],
 			"path": "."
+		},
+		{
+			"path": "/Users/abo/Dropbox/Development/GuitarJournalApp"
 		}
 	],
 	"format_on_save": true,
