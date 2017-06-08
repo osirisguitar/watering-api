@@ -1,32 +1,32 @@
 {
-  "name": "guitar-journal-api",
+  "name": "watering-api",
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
     "start": "node lib/index.js",
-    "migrate": "rethink-migrate up -l debug",
+    "migrate": "rethinkdb-migrate up -l debug",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/osirisguitar/Guitar-Journal-API.git"
+    "url": "git+https://github.com/osirisguitar/watering-api.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/osirisguitar/Guitar-Journal-API/issues"
+    "url": "https://github.com/osirisguitar/watering-api/issues"
   },
-  "homepage": "https://github.com/osirisguitar/Guitar-Journal-API#readme",
+  "homepage": "https://github.com/osirisguitar/watering-api#readme",
   "dependencies": {
-    "bcryptjs": "^2.3.0",
-    "extend": "^3.0.0",
+    "bcryptjs": "^2.4.3",
+    "extend": "^3.0.1",
     "nconf": "^0.8.4",
-    "node-uuid": "^1.4.7",
-    "request": "^2.72.0",
-    "restify": "^4.0.4",
-    "rethink-migrate": "https://github.com/osirisguitar/rethink-migrate/archive/v1.2.2-fix.tar.gz",
-    "rethinkdbdash": "^2.3.2"
+    "node-uuid": "^1.4.8",
+    "request": "^2.81.0",
+    "restify": "^4.3.0",
+    "rethinkdb-migrate": "^1.1.0",
+    "rethinkdbdash": "^2.3.29"
   },
   "devDependencies": {
     "semistandard": "^7.0.5"

@@ -2,6 +2,6 @@
   "rethinkdb": {
     "host": "localhost",
     "port": 28016,
-    "db": "guitarjournal"
+    "db": "watering"
   }
 }

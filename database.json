@@ -1,7 +1,6 @@
 {
   "host": "rethinkdb",
-  "port": 28015,
-  "db": "guitarjournal",
-  "discovery": false,
+  "port": 28016,
+  "db": "watering",
   "timeout": 60
 }

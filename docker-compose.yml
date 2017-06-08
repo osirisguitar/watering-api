@@ -1,5 +1,5 @@
 rethinkdb:
-  image: 'rethinkdb:2.3'
+  image: 'rethinkdb:2.3.5'
   command: 'rethinkdb --server-tag primary --server-name rethinkdb --bind all --driver-port 28016 --cluster-port 29016 --http-port 8082'
   ports:
     - '8082:8082'
@@ -7,4 +7,4 @@ rethinkdb:
     - '29016:29016'
   restart: always
   volumes:
-    - '/data/rethinkdb:/data/rethinkdb_guitarjournal_data'
+    - '/data/rethinkdb:/data/rethinkdb_watering_data'
